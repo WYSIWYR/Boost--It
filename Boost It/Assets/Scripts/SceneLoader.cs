@@ -17,10 +17,10 @@ public class SceneLoader : MonoBehaviour
     }
 
     //Build를 할 때 Scene의 순서(BuildIndex)를 지정할 수 있다(0번 부터 시작)
-    //처음 Level인 1번 Scene을 불러온다.
-    public void LoadFirstLevel()
+    //현재 Level의 Scene을 불러온다.
+    public void LoadCurrentLevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     //다음 Level을 불러온다

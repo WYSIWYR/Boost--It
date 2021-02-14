@@ -1172,4 +1172,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Level 6.unity
   - Assets/Scenes/Level 7.unity
   - Assets/Scenes/End Scene.unity
-  playerPath: D:/UnityGames/Boost It/Boost It.exe
+  playerPath: D:/Side-Projects/Boost-It/Build/Boost It.exe

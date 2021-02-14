@@ -164,6 +164,6 @@ public class Rocket : MonoBehaviour
         audioSource.PlayOneShot(died);
         diedParticle.Play();
         yield return loadLevelDelay;
-        sceneLoader.LoadFirstLevel();
+        sceneLoader.LoadCurrentLevel();
     }
 }
